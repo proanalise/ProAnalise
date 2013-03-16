@@ -1,0 +1,3 @@
+﻿O projeto denominado “ProAnálise” consiste em um aplicativo web, desenvolvido em PHP e HTML5 utilizando MySQL como base de dados. O ProAnálise é um filtro de dados para combinação das duas categorias: Setor e Mapa das unidades federativas, respectivamente.
+
+Ao clicar no setor, serão exibidas as informações relevantes sobre ele nos gráficos. O mesmo ocorrerá ao clicar somente no mapa, que apresenta todas as unidades federativas do Brasil. As informações combinadas serão exibidas quando selecionados as duas ações, Setor e UFs, ao mesmo tempo. As informações gerais sobre o Brasil poderão ser visualizadas quando iniciado o aplicativo ou quando o ícone “Limpar os Filtros”.

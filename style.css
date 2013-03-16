@@ -1,0 +1,129 @@
+/**
+
+*@Copyright 2013 Alberto Tavares, Gloria B. Lima, Jessé Nascimento Filho, Jonatas Rocha
+*@license GNU General Public License version 3; see COPYING.txt
+
+*Este nome do arquivo é parte do nome do APP 
+	*Nome do APP é um software livre; você pode redistribui-lo e/ou 
+	*modifica-lo dentro dos termos da Licença Pública Geral GNU como 
+	*publicada pela Fundação do Software Livre (FSF); na versão 2 da 
+	*Licença, ou (na sua opnião) qualquer versão.
+	*Este programa é distribuido na esperança que possa ser  util, 
+	*mas SEM NENHUMA GARANTIA; sem uma garantia implicita de ADEQUAÇÂO a qualquer
+	*MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+	*Licença Pública Geral GNU para maiores detalhes.
+	*Você deve ter recebido uma cópia da Licença Pública Geral GNU
+	*junto com este programa, se não, escreva para a Fundação do Software
+	*Livre(FSF) Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+/*Essa configuração no body é para deixar os lados do site colados ao navegador*/
+body
+{
+	margin:auto;
+	width:100%;
+	height:100%;
+}
+/*Defini a altura e a cor da div principal. O margin:0px é também para garantir que os lados do site fiquem grudados ao navegador.A largura eu não defini
+pra poder o site ficar na largura da resolução do computador.*/
+#principal
+{
+	height:980;
+	background-color:white;
+	margin:0px;
+}
+
+#topo
+{
+	background-color:#686868;
+	height:250px;
+}
+
+/*
+div.figura {
+  float: right;
+  width: 512px;
+  height:250px;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+div.figura p {
+  text-align: center
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+img.escala {
+  width: 512px;
+  height:250px;
+}
+*/
+
+#barraIcones
+{
+	background-color:#686868;
+	height:80px;
+	width:100%;
+	border:2px solid #;
+}
+
+.titulo{
+	color:white;
+	font-family: Tahoma, sans-serif;
+	font-size:12pt;
+	text-indent:42.3%;
+	margin: 0px 0px 100px 0px;
+}
+
+#main
+{
+	background-color:white;
+	width:50%;
+	height:1000px;
+	margin: 0px 0px 0px 0px;
+	float:left;
+}
+#contentRight
+{
+	background-color:white;
+	height:1000px;
+	width:50%;
+	margin: 0px 0px 0px 0px;
+	float:left;
+}
+#rodape
+{
+	background-color:#686868;
+	height: 100px;
+	width:100%;
+	float:left;
+}
+
+#graficos
+{
+	width:100%;
+	height:100%;
+	overflow-y: hidden;
+}
+
+.chartTitle{
+	color:black;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:14pt;
+}
+
+h1{
+	color:black;
+	font-family: Calibri;
+	font-size:30pt;
+}
+
+
+.rodapeText{
+	color:white;
+	font-family: Calibri;
+	font-size:10pt;
+	text-align:center;
+	text-indent:50px;
+}
