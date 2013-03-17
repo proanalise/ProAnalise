@@ -5,8 +5,7 @@
    include("database.php");
    
    $database = new Database();
-   //$database->connectDB("localhost","procon","root","");
-   $database->connectDB("mysql.hostinger.com.br","u692704404_procon","u692704404_pro","proanalise");
+   $database->connectDB("localhost","procon","root","");
    
    $CNAEPrincipal = null;
    $UF = null;
