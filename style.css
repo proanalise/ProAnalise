@@ -95,9 +95,10 @@ img.escala {
 #rodape
 {
 	background-color:#686868;
-	height: 100px;
+	height: 130px;
 	width:100%;
 	float:left;
+	text-align:center;
 }
 
 #graficos
